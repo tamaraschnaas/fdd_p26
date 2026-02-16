@@ -4,4 +4,4 @@
 **Fecha:** 16-Feb-2026
 
 ## Evidencia
-![Certificado Github Concepts de Tania](evidencia_python.png)
+![Certificado Introduction to Python for Developers](evidencia_python.png)
