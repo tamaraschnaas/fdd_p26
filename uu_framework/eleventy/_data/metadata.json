@@ -149,6 +149,209 @@
     ],
     "has_frontmatter": false
   },
+  "09_python/01_introduccion.md": {
+    "path": "clase/09_python/01_introduccion.md",
+    "title": "Introducción a Python",
+    "type": "lesson",
+    "order": 1,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Tu entorno de Python",
+          "difficulty": "1"
+        },
+        "content_preview": "1. Verifica tu versión de Python:\n\n```bash\npython3 --version\n```\n\n2. Abre el REPL y ejecuta:\n\n```python\n>>> import this\n```\n\nLee el Zen de Python. ¿Cuál de los 19 aforismos te parece más útil? No hay "
+      },
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Proyecto con uv init",
+          "difficulty": "2"
+        },
+        "content_preview": "1. Crea un proyecto con uv:\n\n```bash\nuv init mi-primer-proyecto\ncd mi-primer-proyecto\n```\n\n2. Observa los archivos creados:\n\n```bash\nls -la\ncat pyproject.toml\n```\n\n3. Agrega una dependencia:\n\n```bash\n"
+      },
+      {
+        "type": "prompt",
+        "attrs": {
+          "title": "Configurar entorno Python para ciencia de datos",
+          "for": "ChatGPT/Claude"
+        },
+        "content_preview": "Necesito configurar un entorno de Python para ciencia de datos en mi máquina.\n\nMi sistema operativo es: [Linux / macOS / Windows con WSL2]\nMi versión de Python es: [resultado de python3 --version]\nTen"
+      }
+    ],
+    "has_frontmatter": false
+  },
+  "09_python/02_fundamentos.md": {
+    "path": "clase/09_python/02_fundamentos.md",
+    "title": "Fundamentos de Python",
+    "type": "lesson",
+    "order": 2,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Tipos y variables",
+          "difficulty": "1"
+        },
+        "content_preview": "En el REPL, ejecuta lo siguiente y **predice el resultado antes de presionar Enter**:\n\n```python\n>>> type(42)\n>>> type(42.0)\n>>> type(\"42\")\n>>> type(True)\n>>> type([1, 2, 3])\n>>> type({\"a\": 1})\n```\n\nA"
+      },
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Control de flujo",
+          "difficulty": "1"
+        },
+        "content_preview": "Crea un archivo `notas.py` con el siguiente código:\n\n```python\nnotas = [85, 92, 67, 74, 95, 88, 71, 60, 99, 43]\n\nfor nota in notas:\n    if nota >= 90:\n        letra = \"A\"\n    elif nota >= 80:\n        "
+      },
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Listas y diccionarios",
+          "difficulty": "2"
+        },
+        "content_preview": "Crea un archivo `estudiantes.py`:\n\n```python\nestudiantes = [\n    {\"nombre\": \"Ana\", \"edad\": 22, \"carrera\": \"Actuaría\"},\n    {\"nombre\": \"Luis\", \"edad\": 21, \"carrera\": \"Economía\"},\n    {\"nombre\": \"María\""
+      },
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Funciones",
+          "difficulty": "2"
+        },
+        "content_preview": "Crea un archivo `funciones.py` con las siguientes funciones:\n\n1. `es_par(n)` — retorna `True` si `n` es par, `False` si no\n2. `promedio(numeros)` — recibe una lista de números y retorna su promedio\n3."
+      },
+      {
+        "type": "prompt",
+        "attrs": {
+          "title": "Depurar errores de Python",
+          "for": "ChatGPT/Claude"
+        },
+        "content_preview": "Estoy aprendiendo Python y tengo el siguiente error:\n\n```\n[pega aquí el mensaje de error completo]\n```\n\nMi código es:\n\n```python\n[pega aquí tu código]\n```\n\nExplícame:\n1. ¿Qué significa este error en e"
+      }
+    ],
+    "has_frontmatter": false
+  },
+  "09_python/00_index.md": {
+    "path": "clase/09_python/00_index.md",
+    "title": "Módulo 9: Python",
+    "type": "lesson",
+    "order": 0,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "homework",
+        "attrs": {
+          "id": "9.0",
+          "title": "Instalar Python, uv, pip y pyenv",
+          "due": "2026-02-17",
+          "points": "0"
+        },
+        "content_preview": "Instala las siguientes herramientas en tu sistema:\n\n1. **Python 3** (versión 3.10+)\n2. **pip** — el gestor de paquetes estándar de Python\n3. **uv** — gestor de paquetes y entornos virtuales rápido\n4. "
+      },
+      {
+        "type": "homework",
+        "attrs": {
+          "id": "9.1",
+          "title": "Curso de Python Introductorio",
+          "due": "2026-02-17",
+          "points": "20"
+        },
+        "content_preview": "Curso de Python: https://app.datacamp.com/learn/courses/introduction-to-python-for-developers\n\nCompleta el curso y sube la certificacion a tu directorio de certificaciones, crea un nuevo file llamado "
+      },
+      {
+        "type": "homework",
+        "attrs": {
+          "id": "9.2",
+          "title": "Hello World en Python",
+          "due": "2026-02-17",
+          "points": "0"
+        },
+        "content_preview": "Verifica que tu instalación de Python funciona correctamente de dos formas:\nNo olvideas hacerlo en tu carpeta, puedes llamarla python para tener todo ordenado.\n1. **Modo interactivo**: abre el intérpr"
+      },
+      {
+        "type": "homework",
+        "attrs": {
+          "id": "9.3",
+          "title": "Curso de Python Intermedio",
+          "due": "2026-02-19",
+          "points": "20"
+        },
+        "content_preview": "Curso de Python:https://app.datacamp.com/learn/courses/intermediate-python-for-developers\n\nCompleta el curso y sube la certificacion a tu directorio de certificaciones, crea un nuevo file llamado pyth"
+      },
+      {
+        "type": "homework",
+        "attrs": {
+          "id": "9.3.1",
+          "title": "Instalar VSCode",
+          "due": "2026-02-19",
+          "points": "0"
+        },
+        "content_preview": "Isntalar VSCode y configurar el entorno de desarrollo.\nAsegurate de instalarlo de manera correcta en tu sistema oeprativo. Instalalo en WSL2 si usas windows no en toro lado. VSCOde tiende a tener erro"
+      },
+      {
+        "type": "homework",
+        "attrs": {
+          "id": "9.4",
+          "title": "Curso de Software Engineering Principles in Python",
+          "due": "2026-02-24",
+          "points": "20"
+        },
+        "content_preview": "Curso de Python:https://app.datacamp.com/learn/courses/software-engineering-principles-in-python\n\nCompleta el curso y sube la certificacion a tu directorio de certificaciones, crea un nuevo file llama"
+      },
+      {
+        "type": "homework",
+        "attrs": {
+          "id": "9.5",
+          "title": "Curso de Pandas",
+          "due": "2026-02-26",
+          "points": "20"
+        },
+        "content_preview": "Curso de Python:https://app.datacamp.com/learn/courses/data-manipulation-with-pandas\n\nCompleta el curso y sube la certificacion a tu directorio de certificaciones, crea un nuevo file llamado python_pa"
+      },
+      {
+        "type": "homework",
+        "attrs": {
+          "id": "9.6",
+          "title": "Curso de Polars",
+          "due": "2026-03-03",
+          "points": "20"
+        },
+        "content_preview": "Curso de Python:https://app.datacamp.com/learn/courses/introduction-to-polars \n\nCompleta el curso y sube la certificacion a tu directorio de certificaciones, crea un nuevo file llamado python_polars_0"
+      },
+      {
+        "type": "homework",
+        "attrs": {
+          "id": "9.7",
+          "title": "Introduccion a APIs",
+          "due": "2026-03-05",
+          "points": "20"
+        },
+        "content_preview": "Curso de Python:https://app.datacamp.com/learn/courses/introduction-to-apis-in-python\n\nCompleta el curso y sube la certificacion a tu directorio de certificaciones, crea un nuevo file llamado python_a"
+      },
+      {
+        "type": "homework",
+        "attrs": {
+          "id": "9.8",
+          "title": "Introduccion a FastAPI",
+          "due": "2026-03-10",
+          "points": "20"
+        },
+        "content_preview": "Curso de Python:https://app.datacamp.com/learn/courses/introduction-to-fastapi\n\nCompleta el curso y sube la certificacion a tu directorio de certificaciones, crea un nuevo file llamado python_fast_api"
+      }
+    ],
+    "has_frontmatter": false
+  },
   "08_containers/04_benchmarks.md": {
     "path": "clase/08_containers/04_benchmarks.md",
     "title": "Benchmarks: midiendo el rendimiento de contenedores",
@@ -165,39 +368,7 @@
           "title": "Medir startup latency",
           "difficulty": "1"
         },
-        "content_preview": "1. Ejecuta el benchmark:\n\n```bash\ncd scripts\nbash bench_startup.sh 20\n```\n\n2. Revisa los resultados:\n\n```bash\ncat results/startup.csv\n```\n\n3. Calcula el promedio de cada runtime. ¿Cuántas veces más le"
-      },
-      {
-        "type": "exercise",
-        "attrs": {
-          "title": "Medir memoria",
-          "difficulty": "2"
-        },
-        "content_preview": "1. Antes de empezar, cierra aplicaciones pesadas para tener una medición más limpia.\n\n2. Ejecuta:\n\n```bash\nbash bench_memory.sh\n```\n\n3. Revisa los resultados y responde:\n   - ¿Cuánta memoria usó el da"
-      },
-      {
-        "type": "exercise",
-        "attrs": {
-          "title": "Medir CPU",
-          "difficulty": "2"
-        },
-        "content_preview": "1. Ejecuta:\n\n```bash\nbash bench_cpu.sh\n```\n\n2. Calcula el porcentaje de overhead: `(tiempo_contenedor - tiempo_bare) / tiempo_bare * 100`\n\n3. ¿Es significativo el overhead de CPU? ¿Cuándo podría impor"
-      },
-      {
-        "type": "exercise",
-        "attrs": {
-          "title": "Medir I/O",
-          "difficulty": "2"
-        },
-        "content_preview": "1. Ejecuta:\n\n```bash\nbash bench_io.sh\n```\n\n2. Compara las velocidades. ¿Cuánto más lento es overlay vs bare metal?\n\n3. ¿Los volúmenes recuperan el rendimiento perdido?\n\n4. ¿Qué implicaciones tiene est"
-      },
-      {
-        "type": "exercise",
-        "attrs": {
-          "title": "Contenedores anidados",
-          "difficulty": "3"
-        },
-        "content_preview": "1. Ejecuta:\n\n```bash\nbash bench_nested.sh\n```\n\n⚠️ **Es probable que falle.** Eso es parte del ejercicio. Lee el error con atención.\n\n2. Si falló:\n   - ¿Qué error dio Docker-in-Docker? ¿Qué permisos pi"
+        "content_preview": "1. Ejecuta el benchmark:\n\n```bash\ncd scripts\nbash bench_startup.sh 20\n```\n\n2. Revisa los resultados:\n\n```bash\ncat results/exp1_startup.csv\n```\n\n3. Compara las medianas de cada combinación runtime×imag"
       },
       {
         "type": "exercise",
@@ -205,7 +376,15 @@
           "title": "Medir escalamiento",
           "difficulty": "3"
         },
-        "content_preview": "1. Ejecuta:\n\n```bash\nbash bench_scale.sh\n```\n\n⚠️ Este benchmark puede tardar varios minutos y usar recursos significativos.\n\n2. Grafica los resultados (o usa `analyze.py`):\n   - Eje X: número de conte"
+        "content_preview": "1. Ejecuta:\n\n```bash\nbash bench_scale.sh\n```\n\n2. Revisa el CSV y responde:\n   - ¿El escalamiento del launch time es lineal? ¿Cuántos ms/contenedor en cada runtime?\n   - ¿Cuánta memoria usa el daemon d"
+      },
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Medir runtime overhead",
+          "difficulty": "2"
+        },
+        "content_preview": "1. Ejecuta:\n\n```bash\nbash bench_runtime.sh 10\n```\n\n2. Calcula el overhead porcentual de cada workload: `(mediana_contenedor - mediana_bare) / mediana_bare × 100`\n\n3. ¿Por qué el overhead es diferente "
       },
       {
         "type": "prompt",
@@ -214,6 +393,67 @@
           "for": "ChatGPT/Claude"
         },
         "content_preview": "Ejecuté benchmarks de contenedores (Docker vs Podman vs bare metal) y obtuve estos resultados:\n\n```\n[pega los contenidos de tus CSVs o la salida del benchmark aquí]\n```\n\nMi hardware es:\n- CPU: [modelo"
+      }
+    ],
+    "has_frontmatter": false
+  },
+  "08_containers/05_volumenes.md": {
+    "path": "clase/08_containers/05_volumenes.md",
+    "title": "Volúmenes",
+    "type": "lesson",
+    "order": 5,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Explorar bind mounts",
+          "difficulty": "1"
+        },
+        "content_preview": "**ASEGURATE de estar en `exercises/lab1_bind_mounts/`** antes de empezar.\n\nEjecuta todos los pasos del laboratorio 1 **manualmente, uno por uno**. Después responde:\n\n1. ¿Qué pasa si borras `app.py` de"
+      },
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "PostgreSQL con volúmenes",
+          "difficulty": "2"
+        },
+        "content_preview": "**Escribe TODOS los comandos manualmente** — no copies y pegues bloques completos. El punto es que entiendas cada flag.\n\n1. Ejecuta el laboratorio completo de PostgreSQL (pasos 1-5).\n\n2. Después del p"
+      },
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Edge cases en acción",
+          "difficulty": "2"
+        },
+        "content_preview": "Ejecuta cada edge case **manualmente** y responde:\n\n1. **Sobrescritura**: ¿qué pasa si montas un bind mount en `/bin` del contenedor?\n\n```bash\nmkdir -p /tmp/fake-bin\ndocker run --rm -v /tmp/fake-bin:/"
+      },
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Ciclo de desarrollo con volúmenes",
+          "difficulty": "2"
+        },
+        "content_preview": "**ASEGURATE de estar en `exercises/lab3_dev_workflow/`.**\n\nHaz todo manualmente:\n\n1. Lee los 3 archivos (`main.py`, `requirements.txt`, `Dockerfile`). **Entiende qué hace cada uno.**\n\n2. Haz el build "
+      },
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Qué vive dónde",
+          "difficulty": "2"
+        },
+        "content_preview": "Este ejercicio verifica que entiendas qué le pasa a cada capa. **RESPONDE ANTES DE EJECUTAR** — y luego verifica.\n\n**Navega al directorio:**\n\n```bash\ncd exercises/lab4_donde_vive/\n```\n\nInspecciona los"
+      },
+      {
+        "type": "prompt",
+        "attrs": {
+          "title": "Debuggear un proyecto con volúmenes",
+          "for": "ChatGPT/Claude"
+        },
+        "content_preview": "Tengo un proyecto con este Dockerfile:\n\n```\n[pega tu Dockerfile]\n```\n\nMi estructura de directorios es:\n\n```\n[pega la salida de tree o ls -R]\n```\n\nEl error que obtengo al ejecutar es:\n\n```\n[pega el err"
       }
     ],
     "has_frontmatter": false
@@ -289,6 +529,16 @@
     "tags": [],
     "due_date": null,
     "components": [
+      {
+        "type": "homework",
+        "attrs": {
+          "id": "01.01",
+          "title": "Certificado de Docker basico",
+          "due": "2026-02-12",
+          "points": "20"
+        },
+        "content_preview": "Hacer el curso de Docker basico de datacamp y subir el certificado pr github en pull request y agregar la direccion del pull request y el file en github (los links) en canvas.  \nhttps://app.datacamp.c"
+      },
       {
         "type": "exercise",
         "attrs": {
@@ -386,6 +636,35 @@
           "for": "ChatGPT/Claude"
         },
         "content_preview": "Estoy migrando un proyecto de Docker a Podman. Mi configuración actual es:\n\n**docker-compose.yml:**\n\n```yaml\n[pega tu docker-compose.yml aquí]\n```\n\n**Problemas encontrados:**\n\n```\n[pega errores o dife"
+      }
+    ],
+    "has_frontmatter": false
+  },
+  "08_containers/06_nested.md": {
+    "path": "clase/08_containers/06_nested.md",
+    "title": "Contenedores anidados",
+    "type": "lesson",
+    "order": 6,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Contenedores anidados",
+          "difficulty": "3"
+        },
+        "content_preview": "**Ejecuta todos los comandos manualmente.** Cada sección es independiente — limpia antes de pasar a la siguiente.\n\n### Parte A: Docker-in-Docker\n\n1. Levanta un contenedor DinD:\n\n```bash\ndocker run -d "
+      },
+      {
+        "type": "prompt",
+        "attrs": {
+          "title": "Diseñar pipeline CI/CD con contenedores anidados",
+          "for": "ChatGPT/Claude"
+        },
+        "content_preview": "Necesito diseñar un pipeline de CI/CD que:\n- Corre dentro de un contenedor (ambiente controlado)\n- Necesita construir imágenes Docker de mi aplicación\n- Necesita levantar contenedores de test (Postgre"
       }
     ],
     "has_frontmatter": false
@@ -508,7 +787,7 @@
         "attrs": {
           "id": "7.2",
           "title": "Bandit OverTheWire - Niveles 6-10",
-          "due": "2026-02-12",
+          "due": "2026-02-17",
           "points": "20"
         },
         "content_preview": "**URL:** [https://overthewire.org/wargames/bandit/](https://overthewire.org/wargames/bandit/)\n\n### Objetivo:\nCompletar los niveles del **6 al 10** de Bandit (tener la contraseña para entrar al nivel 1"

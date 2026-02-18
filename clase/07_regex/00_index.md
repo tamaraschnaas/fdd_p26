@@ -179,6 +179,7 @@ Esta tarea es para que aprendas a buscar información **a la antigua**. Queremos
 2. **Busques** cómo funciona el comando (no la solución)
 3. **Experimentes** en la terminal
 
+
 ### Recursos permitidos:
 
 | Recurso | Para qué usarlo |
