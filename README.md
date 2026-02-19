@@ -1,18 +1,36 @@
-# fdd_p24
-Repositorio de la clase de Fuendes de Datos (Otonyo 23)
+# Fuentes de Datos - ITAM
 
-![fdd_p24](fdd_p24.png)
+**Primavera 2026**
 
-## Recursos
-[Drive/Documentos de la Clase](https://drive.google.com/drive/folders/1DXsOaW1AnoSYKPAhmYsH04TMPCoBIq8z?usp=sharing)  
+| | |
+|---|---|
+| **Clave** | COM-12103-001 |
 
-[Syllabus](https://docs.google.com/document/d/1sRP2-RGkVfakVQfbZ5_rnIBnFdklFVELDoaUghJ_IqY/edit?usp=drive_link)  
+![Landing Page](clase/images/landing_page.png)
 
-[Calendario y Anuncios](https://docs.google.com/spreadsheets/d/1E3v_WsajgmMvfv24STjDRoEef9i4bILkK7NsD2ZbFVY/edit?usp=drive_link)  
+Bienvenidx al curso de Fuentes de Datos.
 
-## Github
-[Github](https://github.com/sonder-art/fdd_p24)
-## Discord
-[Discord](https://discord.gg/VBpqCu7sEQ)
+## Enlaces
+
+- **Sitio web**: [www.sonder.art/fdd_p26](https://www.sonder.art/fdd_p26/)
+- **Introducción**: [Ver contenido](https://www.sonder.art/fdd_p26/01_introduccion/00_index/)
+- **Presentación**: [Google Drive](https://drive.google.com/drive/folders/1i2dtaf7bT3_rOLntFrWOrnIGRzCXyBCo?usp=drive_link)
 
 
+## Recursos de la Clase
+
+### Drive
+
+Presentaciones, ejercicios y otros materiales del curso.
+
+[![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/drive/folders/1i2dtaf7bT3_rOLntFrWOrnIGRzCXyBCo?usp=drive_link)
+
+### Canvas
+
+Plan de estudios, materiales y tareas del curso.
+
+[![Canvas](https://img.shields.io/badge/Canvas-E72429?style=for-the-badge&logo=canvas&logoColor=white)](https://itam.instructure.com/courses/16595)
+
+
+## Contacto
+mario.vazquez.corte@itam.mx

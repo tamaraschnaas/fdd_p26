@@ -1,0 +1,212 @@
+[
+  {
+    "clase": "1",
+    "date": "2026-01-13",
+    "topic": "Introduccion",
+    "is_holiday": false
+  },
+  {
+    "clase": "2",
+    "date": "2026-01-15",
+    "topic": "Pipeline de Datos",
+    "is_holiday": false
+  },
+  {
+    "clase": "3",
+    "date": "2026-01-20",
+    "topic": "Sistemas Operativos",
+    "is_holiday": false
+  },
+  {
+    "clase": "4",
+    "date": "2026-01-22",
+    "topic": "Terminal",
+    "is_holiday": false
+  },
+  {
+    "clase": "5",
+    "date": "2026-01-27",
+    "topic": "Bash & Shell",
+    "is_holiday": false
+  },
+  {
+    "clase": "6",
+    "date": "2026-01-29",
+    "topic": "Regex",
+    "is_holiday": false
+  },
+  {
+    "clase": "7",
+    "date": "2026-02-03",
+    "topic": "Git",
+    "is_holiday": false
+  },
+  {
+    "clase": "8",
+    "date": "2026-02-05",
+    "topic": "Github",
+    "is_holiday": false
+  },
+  {
+    "clase": "9",
+    "date": "2026-02-10",
+    "topic": "Docker",
+    "is_holiday": false
+  },
+  {
+    "clase": "10",
+    "date": "2026-02-12",
+    "topic": "Docker",
+    "is_holiday": false
+  },
+  {
+    "clase": "11",
+    "date": "2026-02-17",
+    "topic": "Python Basics",
+    "is_holiday": false
+  },
+  {
+    "clase": "12",
+    "date": "2026-02-19",
+    "topic": "IDEs",
+    "is_holiday": false
+  },
+  {
+    "clase": "13",
+    "date": "2026-02-24",
+    "topic": "Entorno Profesional: Gestión de Dependencias con uv",
+    "is_holiday": false
+  },
+  {
+    "clase": "14",
+    "date": "2026-02-26",
+    "topic": "Mecánica Interna: Memoria, Referencias y Mutabilidad",
+    "is_holiday": false
+  },
+  {
+    "clase": "15",
+    "date": "2026-03-03",
+    "topic": "Modelado de Datos y Validación con Pydantic",
+    "is_holiday": false
+  },
+  {
+    "clase": "16",
+    "date": "2026-03-05",
+    "topic": "Patrones Funcionales, Iteradores y Generadores",
+    "is_holiday": false
+  },
+  {
+    "clase": "17",
+    "date": "2026-03-10",
+    "topic": "Metaprogramación: Decoradores y Context Managers",
+    "is_holiday": false
+  },
+  {
+    "clase": "18",
+    "date": "2026-03-12",
+    "topic": "Robustez y Observabilidad: Logging Estructurado",
+    "is_holiday": false
+  },
+  {
+    "clase": "19",
+    "date": "2026-03-17",
+    "topic": "Gestión de Configuración y 12-Factor App",
+    "is_holiday": false
+  },
+  {
+    "clase": "20",
+    "date": "2026-03-19",
+    "topic": "Arquitectura de Software: Repositorios y Servicios",
+    "is_holiday": false
+  },
+  {
+    "clase": "21",
+    "date": "2026-03-24",
+    "topic": "Testing Profesional y Mocking con Pytest",
+    "is_holiday": false
+  },
+  {
+    "clase": "22",
+    "date": "2026-03-26",
+    "topic": "Despliegue y Docker Multi-Stage para Producción",
+    "is_holiday": false
+  },
+  {
+    "clase": "asueto",
+    "date": "2026-03-31",
+    "topic": "asueto",
+    "is_holiday": true
+  },
+  {
+    "clase": "asueto",
+    "date": "2026-04-02",
+    "topic": "asueto",
+    "is_holiday": true
+  },
+  {
+    "clase": "23",
+    "date": "2026-04-07",
+    "topic": "Arquitectura de Computadoras",
+    "is_holiday": false
+  },
+  {
+    "clase": "24",
+    "date": "2026-04-09",
+    "topic": "Asincrono, concurrente y paralelo",
+    "is_holiday": false
+  },
+  {
+    "clase": "25",
+    "date": "2026-04-14",
+    "topic": "Asincrono, concurrente y paralelo",
+    "is_holiday": false
+  },
+  {
+    "clase": "26",
+    "date": "2026-04-16",
+    "topic": "Asincrono, concurrente y paralelo",
+    "is_holiday": false
+  },
+  {
+    "clase": "27",
+    "date": "2026-04-21",
+    "topic": "Arquitectura de Sistemas",
+    "is_holiday": false
+  },
+  {
+    "clase": "28",
+    "date": "2026-04-23",
+    "topic": "Arquitectura de Sistemas",
+    "is_holiday": false
+  },
+  {
+    "clase": "29",
+    "date": "2026-04-28",
+    "topic": "Arquitectura de Sistemas",
+    "is_holiday": false
+  },
+  {
+    "clase": "30",
+    "date": "2026-04-30",
+    "topic": "por determinar",
+    "is_holiday": false
+  },
+  {
+    "clase": "31",
+    "date": "2026-05-05",
+    "topic": "por determinar",
+    "is_holiday": false
+  },
+  {
+    "clase": "32",
+    "date": "2026-05-07",
+    "topic": "por determinar",
+    "is_holiday": false
+  },
+  {
+    "clase": "33",
+    "date": "2026-05-12",
+    "topic": "por determinar",
+    "is_holiday": false
+  }
+]

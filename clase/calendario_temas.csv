@@ -1,0 +1,36 @@
+Clase,Fecha,Tema
+1,13/01/2026,Introduccion
+2,15/01/2026,Pipeline de Datos
+3,20/01/2026,Sistemas Operativos
+4,22/01/2026,Terminal
+5,27/01/2026,Bash & Shell
+6,29/01/2026,Regex
+7,03/02/2026,Git
+8,05/02/2026,Github
+9,10/02/2026,Docker
+10,12/02/2026,Docker
+11,17/02/2026,Python Basics
+12,19/02/2026,IDEs
+13,24/02/2026,Entorno Profesional: Gestión de Dependencias con uv
+14,26/02/2026,"Mecánica Interna: Memoria, Referencias y Mutabilidad"
+15,03/03/2026,Modelado de Datos y Validación con Pydantic
+16,05/03/2026,"Patrones Funcionales, Iteradores y Generadores"
+17,10/03/2026,Metaprogramación: Decoradores y Context Managers
+18,12/03/2026,Robustez y Observabilidad: Logging Estructurado
+19,17/03/2026,Gestión de Configuración y 12-Factor App
+20,19/03/2026,Arquitectura de Software: Repositorios y Servicios
+21,24/03/2026,Testing Profesional y Mocking con Pytest
+22,26/03/2026,Despliegue y Docker Multi-Stage para Producción
+asueto,31/03/2026,asueto
+asueto,02/04/2026,asueto
+23,07/04/2026,Arquitectura de Computadoras
+24,09/04/2026,"Asincrono, concurrente y paralelo"
+25,14/04/2026,"Asincrono, concurrente y paralelo"
+26,16/04/2026,"Asincrono, concurrente y paralelo"
+27,21/04/2026,Arquitectura de Sistemas
+28,23/04/2026,Arquitectura de Sistemas
+29,28/04/2026,Arquitectura de Sistemas
+30,30/04/2026,por determinar
+31,05/05/2026,por determinar
+32,07/05/2026,por determinar
+33,12/05/2026,por determinar
